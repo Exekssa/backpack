@@ -1,0 +1,26 @@
+﻿<Window x:Class="BackPack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BackPack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="Manual" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/bg.png"/>
+        </Grid.Background>
+        <Image x:Name="BagImage" HorizontalAlignment="Left" Height="380" Margin="523,39,0,0" VerticalAlignment="Top" Width="255" Source="Images/bag.png"/>
+        <Image x:Name="Shoe" HorizontalAlignment="Left" Height="137" VerticalAlignment="Bottom" Width="143" Source="Images/shoe.png" Margin="48,0,0,112"/>
+        <Image x:Name="Marks" HorizontalAlignment="Left" Height="202" Margin="344,0,0,132" VerticalAlignment="Bottom" Width="189" Source="Images/marks.png"/>
+        <Image x:Name="Food" HorizontalAlignment="Left" Height="133" Margin="137,12,0,0" VerticalAlignment="Top" Width="96" Source="Images/cat-food.png"/>
+        <Image x:Name="Camera" HorizontalAlignment="Left" Height="104" Margin="223,0,0,109" VerticalAlignment="Bottom" Width="87" Source="Images/camera.png"/>
+        <Image x:Name="Cactus" HorizontalAlignment="Left" Height="118" Margin="241,18,0,0" VerticalAlignment="Top" Width="104" Source="Images/cactus.png"/>
+        <Image x:Name="Tomatoes" HorizontalAlignment="Left" Height="70" Margin="53,65,0,0" VerticalAlignment="Top" Width="66" Source="Images/tomatoes.png"/>
+
+        <TextBox x:Name="MyText" HorizontalAlignment="Left" Height="117" Margin="45,327,0,0" Padding="10" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="420" FontFamily="Calibri" FontSize="18" TextChanged="MyText_TextChanged" Background="#FFE4EBFF" Foreground="#FF00116D" BorderBrush="#FF7CA2FF" FontWeight="Bold"/>
+
+
+
+    </Grid>
+</Window>
